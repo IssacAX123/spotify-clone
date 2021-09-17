@@ -31,7 +31,8 @@ function App() {
     }, [])
   return (
     <div className="app">
-        {token ? (<Player/>): <Login />}
+        <Player/>
+        {/*{token ? (<Player/>): <Login />}*/}
     </div>
   );
 }
