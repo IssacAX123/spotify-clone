@@ -26,6 +26,13 @@ function App() {
                     user: r
                 })
             });
+            SPOTIFY.getUserPlaylists().then((playlists) =>{
+                dispatch(
+                    {
+                        type: "SET_PLAYLISTS",
+                        playlists: playlists
+                })
+            })
         }
 
     }, [])
