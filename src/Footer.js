@@ -26,7 +26,7 @@ function Footer(props) {
                 <ShuffleIcon className="footer__green"/>
                 <SkipPreviousOutlinedIcon className="footer__icon"/>
                 <PlayCircleOutlineOutlinedIcon fontSize="large" className="footer__icon"/>
-                <SkipNextOutlinedIcon className="footer__green"/>
+                <SkipNextOutlinedIcon className="footer__icon"/>
                 <RepeatIcon className="footer__green"/>
 
             </div>
