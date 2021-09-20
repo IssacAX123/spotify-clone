@@ -33,6 +33,12 @@ function App() {
                         playlists: playlists
                 })
             })
+            SPOTIFY.getPlaylist('37i9dQZEVXcRegcn9zgCMl').then(r =>{
+                dispatch({
+                    type: "SET_DISCOVER_WEEKLY",
+                    discover_weekly: r
+                })
+            })
         }
 
     }, [])
